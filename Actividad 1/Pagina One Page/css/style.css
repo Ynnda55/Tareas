@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header{
+    position: relative;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    text-align: center;
+    line-height: 60px;
+}
+
+nav ul a li{
+    float: left;
+    width: 25%;
+    height: 60px;
+    color: blanchedalmond;
+    text-align: center;
+    line-height: 60px;
+    font-size: 20px;
+    
+}
+
+nav ul a li:hover{
+    background-color: orangered;
+}
+
+#topage{
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    line-height: 600px;
+    background-image: url(https://t1.rg.ltmcdn.com/es/images/1/9/3/pizza_casera_31391_600_square.jpg);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    color: white;
+    font-size: 25px;
+}
+
+#nosotros{
+    width: 100%;
+    height: 400px;
+    text-align: center;
+}
+
+#nosotros h3{
+    margin-top: 80px;
+    font-size: 25px;
+
+}
+
+#nosotros p{
+    margin-top: 50px;
+    font-size: 16px;
+}
+
+#nosotros figure{
+    margin-top: 30px;
+}
+
+#nosotros figure img {
+    width: 350px;
+}
+
+#delicias {
+    width: 100%;
+    height: 700px;
+    background-image: url(https://image.freepik.com/foto-gratis/vista-aerea-pizza-casera-champinones-mesa-madera_23-2147922438.jpg);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    color: cornsilk;
+    text-align: center;
+}
+
+#delicias h3{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 70px;
+    
+}
+
+
+#delicias div{
+    text-align: center;
+    padding-left: 90px;
+    padding-top: 30px;
+    margin-right: 70px;
+}
+
+#pizza1{
+    margin-top: 20px;
+ 
+ 
+}
+
+#pizza2{
+    margin-top: 20px;
+ 
+}
+
+
+
+#delicias div figure img{
+    width: 200px;
+}
+
+#pizzatitulo1{
+    margin-top: 20px;
+    text-align: center;
+}
+
+#pizzatitulo2{
+    text-align: center;
+}
+
+
+
+#ubicacion{
+    width: 100%;
+
+}
+
+#ubicacion h3{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 25px;
+}
+
+iframe{
+    margin-top: 20px;
+    width: 100% ;
+    height: 400px;
+    box-sizing: border-box;
+}
+
+form{
+    width: 450px;
+    margin: auto;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+
+#contacto h3{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+textarea{
+    min-height: 100xp;
+    max-height: 200px;
+    max-width: 100%;
+}
+#boton{
+    padding: 10px;
+}
+
+#boton:hover{
+    cursor: pointer;
+}
+
+footer{
+    position: relative;
+    margin: 20px auto;
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    text-align: center;
+    line-height: 70px;
+    color: white;
+}
+
+.redes{
+    position: absolute;
+    width: 42px;
+    height: 42px;
+}
+
+#icono1{
+    top: 11px;
+    right: 120px;
+}
+
+#icono2{
+    top: 11px;
+    right: 69px;
+}
+
+#icono3{
+    top: 11px;
+    right: 19px;
+}
+
+#icono1 img{
+    border-radius: 30%;
+    width: 45px;
+}
+
+#icono2 img{
+    border-radius: 30%;
+    width: 45px;
+}
+
+#icono3 img{
+    border-radius: 30%;
+    width: 45px;
+}
+
+
+@media(max-width:600px){
+    #topage{
+        font-size: 24px;
+    }
+}
+
+@media(max-width:480px){
+    iframe{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media(max-width:480px){
+    form{
+        width: 100%;
+    }
+}
+
